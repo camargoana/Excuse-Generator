@@ -20,5 +20,6 @@ window.onload = function() {
     let index = Math.round(random);
     let excuse = box[index];
     
-    document.querySelector("#generador").innerHTML = excuse;
+    let generator = document.querySelector("#generator");
+    generator.innerHTML = excuse;
 }

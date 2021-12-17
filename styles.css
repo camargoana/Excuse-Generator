@@ -1,0 +1,22 @@
+*, *::after , *::before{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+html, 
+body {
+    height: 100%;
+}
+
+.text {
+    position:absolute;
+    top:40%;
+    width: 100%;
+    text-align: center;
+    font-size: 36px;
+}
+
+#generator{
+    font-weight: bold;
+}
